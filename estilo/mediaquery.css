@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body, html {
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    }
+    section#login {
+        width: 80vw;
+        height: 70vh;
+
+    }
+
+    section#login > div#imagem {
+        display: block;
+        float: left;
+        background: var(--cor5) url(../imagens/pexels-mabel-amber-128299.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 55%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 45%;
+    }
+}
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 85vw;
+        height: 80vh ;
+    }
+    section#login > div#imagem {
+        display: block;
+        float: left;
+        background: var(--cor5) url(../imagens/pexels-mabel-amber-128299.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 55%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 45%;
+    }
+
+}
